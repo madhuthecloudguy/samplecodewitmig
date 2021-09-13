@@ -55,3 +55,4 @@ resource "google_compute_instance" "app_dynamic"  {
   // Apply the firewall rule to allow health check and IAP 
   tags = [var.app_name]
 }
+
