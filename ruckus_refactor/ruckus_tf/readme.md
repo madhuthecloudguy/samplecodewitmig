@@ -6,10 +6,7 @@ Note: # change module logical name when creating multiple files by calling rucku
       # update variable.tf under ruckus_tf folder only once for project ids and network and subnetwork details
       # dont chnage anything under ruckus_module folder 
       
-
-
-
-
+```
 module "ruckus" {   
     source = "../ruckus_module"
     env = "prod"                  # environment name qa|prod
@@ -26,7 +23,7 @@ module "ruckus" {
     iap_ssh = "true"               # set this to create firewall rule eith iap allowed iap_ssh = "true" , if iap not required iap_ssh = "false"
 }
 
-
+```
 
 
 
