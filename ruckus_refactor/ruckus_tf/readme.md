@@ -5,7 +5,7 @@ we can create multiple files with below configuration but change file name and m
 
 Note: # change module logical name when creating multiple files by calling ruckus_module
       # update variable.tf under ruckus_tf folder only once for project ids and network and subnetwork details
-      # dont chnage anything under ruckus_module folder 
+      # dont change anything under ruckus_module folder 
 ```
       
 ```
