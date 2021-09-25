@@ -1,10 +1,14 @@
 update ruckus.tf file as below 
 we can create multiple files with below configuration but change file name and module logical name
 
+
 Note: # change module logical name when creating multiple files by calling ruckus_module
       # update variable.tf under ruckus_tf folder only once for project ids and network and subnetwork details
       # dont chnage anything under ruckus_module folder 
       
+
+
+
 
 module "ruckus" {   
     source = "../ruckus_module"
